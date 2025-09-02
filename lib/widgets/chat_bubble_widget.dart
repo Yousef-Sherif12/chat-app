@@ -65,7 +65,10 @@ class Chat_Bubble2 extends StatelessWidget {
                   const EdgeInsets.only(left: 8, right: 8, top: 8, bottom: 8),
               child: Text(
                 message.message,
-                style: const TextStyle(color: Colors.white, fontSize: 16),
+                style: const TextStyle(
+                  color: Colors.white,
+                  fontSize: 16,
+                ),
               ),
             ),
           ),
